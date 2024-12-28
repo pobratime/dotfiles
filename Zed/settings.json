@@ -1,0 +1,245 @@
+{
+  // Theme settings
+  "theme": "Andromeda",
+
+  // Pane and window settings
+  "magnifcation": 1.0,
+  "borded_size": 0.0,
+  "inactive_opacity": 0.0,
+
+  // Session management
+  "autosave": "off",
+  "restore_on_startup": "last_session",
+
+  // Auto-update settings
+  "auto_update": true,
+
+  // Keymap settings
+  "base_keymap": "VSCode",
+
+  // Layout settings
+  "centered_layout": {
+    "left_padding": 0.2,
+    "right_padding": 0.2
+  },
+
+  // Buffer font settings
+  "buffer_font_family": "Fira Code",
+  "buffer_font_size": 13,
+  "buffer_font_weight": null,
+  "buffer_line_height": "standard",
+
+  // Quit confirmation
+  "confirm_quit": true,
+
+  // Inline completions settings
+  "inline_completions": {
+    "disabled_globs": [".env"],
+    "disabled_in": ["comment", "string"]
+  },
+
+  // Highlighting and cursor settings
+  "current_line_highlight": "all",
+  "cursor_blink": true,
+  "cursor_shape": "block",
+
+  // Scrollbar settings
+  "scrollbar": {
+    "show": "auto",
+    "cursors": true,
+    "git_diff": false,
+    "search_results": true,
+    "selected_symbol": true,
+    "diagnostics": true,
+    "axes": {
+      "horizontal": true,
+      "vertical": true
+    }
+  },
+
+  // Tab bar & toolbar settings
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false
+  },
+  "tabs": {
+    "close_position": "right",
+    "file_icons": true,
+    "git_status": false,
+    "activate_on_close": "history",
+    "always_show_close_button": false
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": true
+  },
+
+  // Language server settings
+  "enable_language_server": true,
+  "lsp": {
+    "clangd": {
+      "binary": {
+        "path": "/opt/homebrew/opt/llvm/bin/clangd"
+      }
+    }
+  },
+
+  // Language settings
+  "languages": {
+    "C++": {
+      "format_on_save": "off",
+      "inline_completions_disabled_in": ["comment", "string"]
+    },
+    "C": {
+      "format_on_save": "off",
+      "inline_completions_disabled_in": ["comment", "string"]
+    }
+  },
+
+  // Formatting settings
+  "formatter": "auto",
+  "format_on_save": "on",
+  "use_autoclose": true,
+  "always_treat_brackets_as_autoclosed": false,
+  "ensure_final_newline_on_save": false,
+
+  // Git settings
+  "git": {
+    "git_gutter": "tracked_files",
+    "gutter_debounce": 0,
+    "inline_blame": {
+      "enabled": true
+    }
+  },
+
+  // Indentation guides settings
+  "indent_guides": {
+    "enabled": true,
+    "active_line_width": 1,
+    "background_coloring": "disabled",
+    "coloring": "fixed",
+    "line_width": 0
+  },
+
+  "hard_tabs": false,
+  "hover_popover_enabled": true,
+
+  // Inlay hints settings
+  "inlay_hints": {
+    "enabled": false,
+    "show_type_hints": false,
+    "show_other_hints": false,
+    "show_parameter_hints": false
+  },
+
+  // Journal settings
+  "journal": {
+    "path": "/Users/lukaajdukovic/Desktop/MATF/Journal",
+    "hour_format": "hour12"
+  },
+
+  // Preview tabs settings
+  "preview_tabs": {
+    "enabled": true,
+    "enable_preview_from_file_finder": true,
+    "enable_preview_from_code_navigation": false
+  },
+
+  // File finder settings
+  "max_modal_width": "small",
+
+  // Trailing whitespace removal on save
+  "remove_trailing_whitespace_on_save": true,
+
+  // Search settings
+  "search": {
+    "whole_word": false,
+    "case_sensitive": false,
+    "include_ignored": false,
+    "regex": false
+  },
+
+  // Completion settings
+  "show_call_status_icon": true,
+  "show_completions_on_input": true,
+  "show_completion_documentation": false,
+  "show_inline_completions": false,
+
+  // Whitespace and wrapping settings
+  "show_whitespaces": "selection",
+  "soft_wrap": "none",
+  "tab_size": 2,
+
+  // Zed telemetry settings
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true
+  },
+
+  // Terminal settings
+  "terminal": {
+    "dock": "bottom",
+    "alternate_scroll": "on",
+    "blinking": "terminal_controlled",
+    "copy_on_select": false,
+    "font_size": 12,
+    "font_family": "Fira Code",
+    "line_height": "standard",
+    "button": true,
+    "working_directory": "current_project_directory",
+    "toolbar": {
+      "breadcrumbs": true
+    }
+  },
+
+  // Project panel settings
+  "project_panel": {
+    "button": true,
+    "dock": "left",
+    "default_width": 240,
+    "git_status": true,
+    "auto_reveal_entries": true,
+    "auto_fold_dirs": true,
+    "file_icons": true,
+    "folder_icons": false,
+    "indent_size": 12,
+    "show_diagnostics": "all",
+    "indent_guides": {
+      "show": "always"
+    },
+    "scrollbar": {
+      "show": "never"
+    }
+  },
+
+  // Outline panel settings
+  "outline_panel": {
+    "button": true,
+    "default_width": 240,
+    "dock": "left",
+    "file_icons": true,
+    "folder_icons": true,
+    "git_status": true,
+    "indent_size": 12,
+    "auto_reveal_entries": true,
+    "auto_fold_dirs": true,
+    "indent_guides": {
+      "show": "always"
+    },
+    "scrollbar": {
+      "show": "never"
+    }
+  },
+
+  // Unnecessary code fade setting
+  "unnecessary_code_fade": 0.5,
+
+  // UI font settings
+  "ui_font_family": "Fira Code",
+  "ui_font_size": 14,
+  "ui_font_weight": null,
+
+  // Vim mode settings
+  "vim_mode": true,
+  "relative_line_numbers": true
+}
